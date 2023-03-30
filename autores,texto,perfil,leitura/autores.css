@@ -64,6 +64,12 @@ body{
     
     
 }
+
+.D1{
+    
+    margin-top: 10%;
+    height: 50%;
+}
 .pesquisar_txt{
     border: none;
     background:none;
@@ -82,4 +88,34 @@ body{
     margin-left: 86%;
     margin-top: -2px;
 
+}
+
+.carrinho{
+    width: 100px;
+    margin-left:80%;
+    margin-top: -179px;
+
+}
+
+.perfil{
+    width: 60%;
+    margin-left: 40%;
+    margin-top:-79px ;
+}
+
+.pena{
+    width: 30%;
+    margin-left: 48.5%;
+    margin-top: -170px;
+}
+
+.folha{
+    width: 30%;
+    margin-left: 41.5%;
+    margin-top: -42px;
+   
+}
+
+.items{
+    flex-direction: column;
 }
