@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap');
+
+* {
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    background: rgb(117,40,205);
+background: linear-gradient(90deg, rgba(117,40,205,1) 0%, rgba(120,69,159,1) 28%, rgba(140,109,184,1) 46%, rgba(193,155,118,1) 68%, rgba(205,175,97,1) 96%);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+
+.box { /*deixa os campos centralizados*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+
+.container {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px 0 15px;
+
+}
+
+span {
+    color: #fff;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+}
+
+header {
+    color: #fff;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+}
+
+.input-field .input {  /*estilização dos campos*/
+    height: 45px;
+    width: 87%;
+    border: none;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 15px;
+    padding: 0 0 0 45px;
+    background: rgba(255, 255, 255, 0.1);
+    outline: none;
+}
+
+i {
+    position: relative;
+    top: -33px;
+    left: 17px;
+    color: #fff;
+}
+
+::-webkit-input-placeholder { /*deixa a cor branca das letras*/
+    color: #fff;
+}
+
+
+
+.submit:hover {
+    box-shadow: 1px 5px 7px 1px rgba(0, 0, 0, 0.2);
+}
+
+label a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.bnt-link { /*estilização botão login*/
+    text-decoration: none;
+    width: 95%;
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #fff;
+    border-radius: 30px;
+    color: black;
+}
+
+.registro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #fff;
+    font-size: small;
+    margin-top: 10px;
+}

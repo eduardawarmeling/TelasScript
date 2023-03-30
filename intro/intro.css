@@ -1,0 +1,68 @@
+body {
+    
+    overflow: hidden;
+    
+}
+
+.container {
+    display: grid;
+}
+
+.text {
+    position: absolute;
+    top: 300px;
+    left: 650px;
+    /*posição */
+    color: #cfb5cf;
+    font-size: 3em;
+    letter-spacing: 2px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-right: 3px solid;
+    width: 18%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 4s, cursor .5s step-end infinite alternate;
+}
+
+/*cursor*/
+@keyframes cursor {
+    50% {
+        border-color: transparent;
+    }
+}
+
+/*efeito escrever*/
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
+
+.logo {
+    position: absolute;
+    top: 260px;
+    left: 0px;
+    width: 250px;
+    animation: anima_logo 3s forwards;
+}
+
+@keyframes anima_logo {
+    0% {
+        left: 0px;
+        top: 250px;
+    }
+
+    100% {
+        left: 670px;
+        top: 250px;
+    }
+}
+
+iframe{
+    position: absolute;
+    width: 150%;
+    height: 150%;
+    top:-100px;
+    left:-150px;
+    z-index: -1000;
+}
