@@ -1,85 +1,68 @@
-body
-        {
-            width: 90%;
-            height: 100%;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            justify-items: center;
-            align-items: center;
-            align-content: center;
-            background-color: rgb(255, 255, 255);
-        }
-        .cabecalho
-        {
-            background-color: #ded1f0;
-            color:rgb(245, 245, 245);
-            width: 202vh;
-            height: 50px; 
-            margin-top: -7px;
-            margin-left: 145px;
-            padding-top: 20px;
-            padding-bottom: 20px;
-        }
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
 
-        .imagem_cabecalho
-        {
-            width: auto;
-            height: auto;
-            left: 10px;
-            right: 20%;
-            max-width:180px;
-            max-height:300px;
-            margin-top: -13px;
-        }
+body {
+    background:linear-gradient(rgba(72, 44, 90, 0.8), rgb(46, 46, 54)),
+    url(arg.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+}
 
-        .livro
-        {
-            width: 70%;
-            height: 75%;
-            left: 95%;
-            margin-left: 35%;
-            margin-top: 5%;
-            max-width:390%;
-            max-height:390%;  
-        }
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
-        .frase
-        {
-           
-            margin-left: 10%;
-            margin-top: -25%;
-            max-width:50%;
-            max-height:30%; 
-            font-size: 300%;      
-        }
+.logo{
+    width: 160px;
+    
+}
 
-        .botao
-        {
-            width: 20%;
-            height: 60px;
-            background-color: rgb(130, 87, 150);
-            border-radius: 50px;
-            color: aliceblue;
-            display: flex;
-            cursor: pointer;
-            margin-left: 10%;
-            margin-top: 5%;
-            font-size: 120%;
-            flex-direction: row;
-            justify-content: center;
-            justify-items: center;
-            align-content: center;
-            align-items: center;
-            
-        }
-        button
-        {
-            color:rgb(238, 225, 225);
-            background-color: rgb(71, 63, 119);
-        }
+.frase {
+    color: white;
+    margin-left: 23%;
+    margin-top: 10%;
+    max-width: 90%;
+    max-height: 30%;
+    font-size: 400%;
+    font-family: 'Poppins', sans-serif;
+}
 
-        .botao:hover
-        {
-            background-color: rgb(60, 42, 88);     
-        }
+.botao {
+    width: 20%;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    display: flex;
+    cursor: pointer;
+    margin-left: 37%;
+    margin-top: 10%;
+    font-family:Trebuchet MS;
+    font-size: 120%;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+
+}
+
+a:link{
+    text-decoration: none;
+    }    
+
+button {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+.botao:hover {
+    background-color: rgb(250, 255, 175);
+    
+}

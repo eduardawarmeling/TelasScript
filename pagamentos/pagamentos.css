@@ -15,8 +15,7 @@
   align-items: center;
   padding:25px;
   min-height: 100vh;
-  background: rgb(117,40,205);
-background: linear-gradient(90deg, rgba(117,40,205,1) 0%, rgba(120,69,159,1) 28%, rgba(140,109,184,1) 46%, rgba(193,155,118,1) 68%, rgba(205,175,97,1) 96%);
+  background: linear-gradient(90deg, rgba(117,40,205,1) 0%, rgba(120,69,159,1) 28%, rgba(140,109,184,1) 46%, rgba(193,155,118,1) 68%, rgba(205,175,97,1) 96%);
 }
 
 .container form{
@@ -79,16 +78,22 @@ background: linear-gradient(90deg, rgba(117,40,205,1) 0%, rgba(120,69,159,1) 28%
   filter: drop-shadow(0 0 1px #000);
 }
 
-.container form .submit-btn{
+.bnt-link{
   width: 100%;
-  padding:12px;
+  padding:0.4rem 18rem;
   font-size: 17px;
-  background: #744580;
-  color:#fff;
+  background: #652192;
+  color:rgb(255, 255, 255);
   margin-top: 5px;
   cursor: pointer;
+
 }
 
-.container form .submit-btn:hover{
-  background: #a666ba;
+.bnt-link:hover{
+  background-color: rgb(245, 231, 182);
+  color: black;
+}
+
+a:link{
+  text-decoration: none;
 }
