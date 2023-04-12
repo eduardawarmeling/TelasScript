@@ -135,8 +135,8 @@ section {
 }
 
 /* estilo para o botão de compra */
-.produto button {
-    background-color: #4CAF50;
+.link_botao{
+    background-color: #62378d;
     border: none;
     color: white;
     padding: 10px 20px;
@@ -151,5 +151,5 @@ section {
 
 /* estilo para o botão de compra quando o mouse passa por cima */
 .produto button:hover {
-    background-color: #3e8e41;
+    background-color: #795a93;
 }
