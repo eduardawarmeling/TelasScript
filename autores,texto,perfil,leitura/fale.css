@@ -15,7 +15,8 @@
   align-items: center;
   padding:25px;
   min-height: 100vh;
-  background-color: rgb(182, 159, 212);
+  background: rgb(186,117,201);
+  background: radial-gradient(circle, rgba(186,117,201,1) 0%, rgba(115,55,135,1) 49%, rgba(104,52,163,1) 78%);
 }
 
 .container form{
