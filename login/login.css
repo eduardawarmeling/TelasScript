@@ -29,6 +29,7 @@ background: linear-gradient(90deg, rgba(117,40,205,1) 0%, rgba(120,69,159,1) 28%
 
 }
 
+/*titulo do cadastro*/
 span {
     color: #fff;
     font-size: small;
@@ -45,7 +46,7 @@ header {
     padding: 10px 0 10px 0;
 }
 
-.input-field .input {  /*estilização dos campos*/
+.input-caixa .input {  /*estilização dos campos*/
     height: 45px;
     width: 87%;
     border: none;
@@ -57,7 +58,7 @@ header {
     outline: none;
 }
 
-i {
+i { /*estilização dos icones*/ 
     position: relative;
     top: -33px;
     left: 17px;
@@ -68,12 +69,7 @@ i {
     color: #fff;
 }
 
-
-
-.submit:hover {
-    box-shadow: 1px 5px 7px 1px rgba(0, 0, 0, 0.2);
-}
-
+/*estilização "não tem cadastro"*/
 label a {
     text-decoration: none;
     color: #fff;

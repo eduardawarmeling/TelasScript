@@ -4,7 +4,7 @@ body {
     background-color: #f2f2f2;
 }
 
-.cabecalho{
+.cabecalho {
     width: 100%;
     margin-left: -10px;
     padding: 10px;
@@ -12,30 +12,31 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #ded1f0;
+    background-color: #9a7bb1;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 
 }
 
-.logo{
+.logo {
     width: 140px;
-   
-}
-.cabecalho ul li{
-    list-style: none;
-    display: inline-block;
-    margin: 0 20px; 
-    position: relative; 
+
 }
 
-.cabecalho ul li a{
+.cabecalho ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.cabecalho ul li a {
     text-decoration: none;
     color: black;
     text-transform: uppercase;
     margin-left: 50px;
 }
 
-.cabecalho ul li::after{
+.cabecalho ul li::after {
     content: '';
     height: 3px;
     width: 0%;
@@ -46,38 +47,39 @@ body {
     transition: 0.5s;
 }
 
-.cabecalho ul li:hover::after{
+.cabecalho ul li:hover::after {
     width: 90px;
     left: 30%;
 }
 
-.busca{
+.busca {
     width: 100%;
     height: 250%;
 }
-.caixa_busca{
+
+.caixa_busca {
     background-color: #1A1A1A;
     width: 60%;
-    height:40px;
-    border-radius:70px;
+    height: 40px;
+    border-radius: 70px;
     padding: 10px;
     margin-left: 20%;
     margin-top: 5%;
 }
 
-.search-btn{
+.search-btn {
     color: #1A1A1A;
     float: right;
     width: -10px;
     border-radius: 50px;
     display: flex;
-    justify-content:center ;
+    justify-content: center;
     align-items: center;
 }
 
-.pesquisar_txt{
+.pesquisar_txt {
     border: none;
-    background:none;
+    background: none;
     outline: none;
     width: 95%;
     margin-top: 1%;
@@ -85,7 +87,7 @@ body {
     color: rgb(255, 255, 255);
 }
 
-.D1{
+.D1 {
     margin-top: 10%;
     height: 50%;
 }
@@ -109,6 +111,7 @@ section {
     width: 300px;
     text-align: center;
 }
+
 /* estilo para o título do produto */
 .produto h3 {
     font-size: 18px;
@@ -135,7 +138,7 @@ section {
 }
 
 /* estilo para o botão de compra */
-.link_botao{
+.link_botao {
     background-color: #62378d;
     border: none;
     color: white;

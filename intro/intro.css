@@ -1,13 +1,11 @@
 body {
-    
-    overflow: hidden;
-    
+    overflow: hidden;  
 }
-
 .text {
     position: absolute;
     top: 300px;
-    left: 650px; /*posição */
+    left: 650px;
+    /*posição */
     color: #cfb5cf;
     font-size: 3em;
     letter-spacing: 2px;
@@ -17,6 +15,7 @@ body {
     white-space: nowrap;
     overflow: hidden;
     animation: typing 4s, cursor .5s step-end infinite alternate;
+    z-index: 2;
 }
 
 /*cursor*/
@@ -40,12 +39,19 @@ body {
     width: 250px;
     animation: anima_logo 3s forwards;
 }
-/*estilo video*/
-iframe{
-    position: absolute;
-    width: 150%;
-    height: 150%;
-    top:-100px;
-    left:-150px;
-    z-index: -1000;
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+  .banner video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+  }

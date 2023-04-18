@@ -29,6 +29,7 @@ background: linear-gradient(90deg, rgba(117,40,205,1) 0%, rgba(120,69,159,1) 28%
 
 }
 
+/*titutlo do cadastro*/
 span {
     color: #fff;
     font-size: small;
@@ -36,6 +37,7 @@ span {
     justify-content: center;
     padding: 10px 0 10px 0;
 }
+
 
 header {
     color: #fff;
@@ -45,7 +47,7 @@ header {
     padding: 10px 0 10px 0;
 }
 
-.input-field .input {
+.input-caixa .input {
     height: 45px;
     width: 87%;
     border: none;
@@ -57,6 +59,7 @@ header {
     outline: none;
 }
 
+/*muda a posição e cor dos icones*/
 i {
     position: relative;
     top: -33px;
@@ -68,15 +71,6 @@ i {
     color: #fff;
 }
 
-
-
-.submit:hover {
-    box-shadow: 1px 5px 7px 1px rgba(0, 0, 0, 0.2);
-}
-
-.one {
-    display: flex;
-}
 
 label a {
     text-decoration: none;
