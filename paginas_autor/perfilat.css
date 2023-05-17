@@ -1,0 +1,212 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+
+body {
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+}
+
+.cabecalho{
+    width: 100%;
+    margin-left: -10px;
+    padding: 10px;
+    margin-top: -1%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #9a7bb1;
+}
+
+.logo{
+    width: 140px;
+   
+}
+.cabecalho ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px; 
+    position: relative; 
+}
+
+.cabecalho ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    margin-left: 50px;
+}
+
+.cabecalho ul li::after{
+    content: '';
+    height: 3px;
+    width: 0%;
+    background-color: rgb(77, 51, 101);
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.5s;
+}
+
+.cabecalho ul li:hover::after{
+    width: 90px;
+    left: 30%;
+}
+  
+  /*tamanho quadrado do perfil*/
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .profile {
+    text-align: center;
+    padding: 20px;
+    background-color: transparent;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .profile img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin: 20px 0;
+  }
+  
+  /*estilo texto perfil*/
+  .profile h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .profile .subtitle {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  /*possição textos*/
+  .profile .details {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .profile .details div {
+    flex-basis: 30%;
+  }
+  
+  .profile .details h2 {
+    font-size:20px;
+  }
+
+  /*fim do main 1*/
+
+   
+  .profile2 {
+    text-align: center;
+    padding: 30px;
+    background-color: transparent;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    
+  }
+
+  .profile3 {
+    text-align: center;
+    padding: 20px;
+    background-color: transparent;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+
+
+  
+  /*estilo texto perfil*/
+  .profile3 h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+
+
+  
+
+  a:link{
+    text-decoration: none;
+    } 
+
+  .botao{
+    width: 20%;
+    height: 60px;
+    background-color: rgb(147, 70, 188);
+    border-radius: 50px;
+    display: flex;
+    cursor: pointer;
+    margin-left: 40%;
+    margin-top: 3%;
+    font-family:Trebuchet MS;
+    font-size: 120%;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+  }
+
+  a:link{
+    text-decoration: none;
+    } 
+
+  /*drag*/
+
+  .drag-area{
+    border: 2px dashed rgb(0, 0, 0);
+    height: 300px;
+    width: 400px;
+    margin-left: 32%;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .drag-area.active{
+    border: 2px solid rgb(124, 56, 169);
+  }
+  .drag-area .icon{
+    font-size: 100px;
+    color: rgb(120, 49, 141);
+  }
+  .drag-area header{
+    font-size: 30px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+  }
+  .drag-area span{
+    font-size: 25px;
+    font-weight: 500;
+    color: rgb(3, 2, 2);
+    margin: 10px 0 15px 0;
+  }
+  .drag-area button{
+    padding: 10px 25px;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    background: rgb(107, 40, 126);
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .drag-area img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+
+  
+
+ 
+ 
