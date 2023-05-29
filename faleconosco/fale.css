@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+/*fontes dos textos e possição*/
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-transform: capitalize;
+  transition: all .2s linear;
+}
+
+/*fundo e possição*/
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  min-height: 100vh;
+  background: rgb(186, 117, 201);
+  background: radial-gradient(circle, rgba(186, 117, 201, 1) 0%, rgba(115, 55, 135, 1) 49%, rgba(104, 52, 163, 1) 78%);
+}
+
+/*quadro da caixa de pergunta*/
+.container form {
+  padding: 20px;
+  width: 700px;
+  background: rgb(251, 251, 251);
+  box-shadow: 0 5px 10px rgb(105, 102, 105);
+}
+
+/*tamanho da caixa de texto*/
+.container form .row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+/*tamanho da caixa de texto*/
+.container form .row .col {
+  flex: 1 1 250px;
+}
+
+/*espaço entre as linhas do quadro*/
+.container form .row .col .inputBox {
+  margin: 15px 0;
+}
+
+/*espaço entre as linhas do quadro*/
+.container form .row .col .inputBox span {
+  margin-bottom: 10px;
+  display: block;
+}
+
+/*caixa de texto*/
+.container form .row .col .inputBox input {
+  width: 205%;
+  border: 1px solid rgb(171, 165, 165);
+  padding: 13px 20px;
+  font-size: 15px;
+  text-transform: none;
+}
+
+
+.bnt-link {
+  width: 100%;
+  padding: 0.4rem 19rem;
+  font-size: 17px;
+  background: #652192;
+  color: rgb(255, 255, 255);
+  margin-top: 5px;
+  cursor: pointer;
+
+}
+
+.bnt-link:hover {
+  background-color: rgb(245, 231, 182);
+  color: black;
+}
+
+a:link {
+  text-decoration: none;
+}

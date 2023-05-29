@@ -1,0 +1,39 @@
+body {
+  background: rgb(186, 117, 201);
+  background: radial-gradient(circle, rgba(186, 117, 201, 1) 0%, rgba(115, 55, 135, 1) 49%, rgba(104, 52, 163, 1) 78%);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/*quadrado da mensagem*/
+#container {
+  background-color: #ffffff;
+  margin: 10% auto;
+  max-width: 600px;
+  padding: 20px;
+  text-align: center;
+}
+
+/*titulo*/
+h1 {
+  color: #a775c4;
+  font-size: 2.5em;
+  margin-bottom: 30px;
+}
+
+/*texto*/
+p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+/*texto do link*/
+a {
+  color: #582d7e;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

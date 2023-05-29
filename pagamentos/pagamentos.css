@@ -18,9 +18,10 @@
   align-items: center;
   padding: 25px;
   min-height: 100vh;
-  background: linear-gradient(90deg, rgba(117, 40, 205, 1) 0%, rgba(120, 69, 159, 1) 28%, rgba(140, 109, 184, 1) 46%, rgba(193, 155, 118, 1) 68%, rgba(205, 175, 97, 1) 96%);
+  background: rgb(167,118,203);
+background: linear-gradient(90deg, rgba(167,118,203,1) 6%, rgba(76,42,97,1) 48%);
+  
 }
-
 
 .container form {
   /*estilização quadro formulario */

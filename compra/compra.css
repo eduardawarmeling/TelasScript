@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  .cabecalho {
+    width: 100%;
+    margin-left: -10px;
+    padding: 10px;
+    margin-top: -1%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #9a7bb1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+}
+
+.logo {
+    width: 140px;
+    margin-left: 20px;
+
+
+}
+
+.cabecalho ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.cabecalho ul li a {
+    text-decoration: none;
+    color: rgb(255, 253, 253);
+    text-transform: uppercase;
+    margin-left: 50px;
+}
+
+.cabecalho ul li::after {
+    content: '';
+    height: 3px;
+    width: 0%;
+    background: #472863;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.5s;
+}
+
+.cabecalho ul li:hover::after {
+    width: 90px;
+    left: 30%;
+}
+
+
+  .book {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+
+  .book-image {
+    width: 300px;
+    height: 500px;
+    margin-right: 60%;
+  }
+
+  .book-details {
+    font-size: 200%;
+    margin-top: -30%;
+    margin-left: 40%;
+    height: 80%;
+   
+  }
+
+  .book-title {
+    font-size: 140%;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+  }
+
+  h6{
+    margin-top: -3%;
+  }
+
+
+  p{
+    font-size: large;
+    text-align: justify;
+    line-height: 1.5;
+  }
+  .book-price {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+
+  button{
+    width: 30%;
+    background-color: #62378d;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: -15%;
+    border-radius: 20px;
+    cursor: pointer;
+  }

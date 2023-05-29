@@ -5,7 +5,8 @@
 }
 
 body {
-  background: #f6f5f7;
+  background: rgb(167,118,203);
+  background: linear-gradient(90deg, rgba(167,118,203,1) 6%, rgba(76,42,97,1) 48%);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -16,6 +17,7 @@ body {
 }
 
 h1 {
+  
   font-weight: bold;
   margin: 0;
 }
@@ -165,8 +167,7 @@ input {
 }
 
 .overlay {
-  
-  background: linear-gradient(to right, #9a7bb1, #422455);
+  background: linear-gradient(to right, #9164bf, #875da1);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0 0;
@@ -229,3 +230,4 @@ input {
   height: 40px;
   width: 40px;
 }
+
