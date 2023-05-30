@@ -1,3 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --label-icon: url("https://caelum-online-public.s3.amazonaws.com/1369-alura-mais-dark-mode/lua.png");
+  --trono-img: url("https://caelum-online-public.s3.amazonaws.com/1369-alura-mais-dark-mode/trono-preto.png"); 
+}
+
+.dark-mode {
+  --bg-cor: black;
+  --fonte-cor: #ffffff;
+  --label-icon: url("https://caelum-online-public.s3.amazonaws.com/1369-alura-mais-dark-mode/sol.png");
+  --trono-img: url("https://caelum-online-public.s3.amazonaws.com/1369-alura-mais-dark-mode/trono-branco.png");
+}
+
+body {
+  background: var(--bg-cor);
+  color: var(--fonte-cor);
+  user-select: none; 
+  transition: 1s;
+  user-select: none;
+}
+
+
+
+.mudar-tema {
+  position: absolute;
+  top: 12%;
+  left: 2%;
+  background-image: var(--label-icon); 
+  background-repeat: no-repeat;
+  padding: 67px;
+  cursor: pointer; 
+}
+
+#btn {
+  display: none;
+  width: 20px;
+  margin-top: 200px;
+}
+
 .container {
   max-width: 600px;
   margin: 0 auto;

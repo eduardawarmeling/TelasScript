@@ -166,6 +166,7 @@ input {
   transform: translateX(-100%);
 }
 
+
 .overlay {
   background: linear-gradient(to right, #9164bf, #875da1);
   background-repeat: no-repeat;
