@@ -92,6 +92,7 @@ body {
   .profile .details {
     display: flex;
     justify-content: space-between;
+    flex-direction: row;
   }
   
   .profile .details div {

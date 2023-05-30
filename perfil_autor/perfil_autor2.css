@@ -78,9 +78,18 @@ body {
   }
 
   .profile2 img {
-    border-radius: 50%;
-    width: 100px;
-    height: 200px;
+   
+    width: 200px;
+    height: 300px;
     margin: 20px 0;
 
+  }
+
+  .details {
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
   }
