@@ -14,7 +14,7 @@
         <img src="logo2.png" class="logo">
         <ul>
             <li><a href="../produtos/produtos.html">Produtos</a> <i class="fa-solid fa-file-lines" style="color: #f6f6f6;"></i> </li>
-            <li><a href="../autores/autores.html">Autores</a> <i class="fa-solid fa-pen" style="color: #ffffff;"></i> </li>
+            <li><a href="../compra/compra.html">Autores</a> <i class="fa-solid fa-pen" style="color: #ffffff;"></i> </li>
             <li><a href="../perfil_usuario/perfil.html">Perfil</a> <i class="fa-solid fa-user" style="color: #ffffff;"></i> </li>
             <li><a href="../biblioteca/biblioteca.html">Biblioteca</a> <i class="fa-solid fa-book-bookmark" style="color: #ffffff;"></i> </i>
             <li><a href="../carrinho/carrinho.html">Carrinho</a> <i class="fa-solid fa-cart-shopping" style="color: #ffffff;"> </i>
@@ -35,11 +35,19 @@
           <h6>Samira Almeida</h6>
           <p> A história gira em torno de Clara e Daniel, dois jovens amigos inseparáveis ​​que decidem embarcar em <br> uma aventura noturna que mudará suas vidas para sempre.
             Após terminarem o ensino médio, Clara e Daniel <br> se veem diante do desconhecido e de uma nova fase em suas vidas. Para celebrar a conquista, eles <br> decidem fazer algo completamente fora da rotina e acabam se envolvendo em uma série de eventos<br>inesperados. Eles testemunham um crime, conhecem pessoas peculiares e se envolvem em situações perigosas.</p>
-          <p class="book-price">R$ 29,99</p>
-          <button>Adicionar ao Carrinho</button>
+          <p class="book-price">R$ 19,99</p>
+          <button onclick="COLOCARNOCARRINHO()">Colocar no carrinho</button>
         </div>
       </div>
 
 
 <body>
+<script>
+  function COLOCARNOCARRINHO() {
+    var codigoProduto = "NOME_PRODUTO";
+    var valor = "VALOR";
+    var url = "../colocarnocarrinho.php?codigo=" + codigoProduto + "&valor=" + valor;
+    window.open(url,"_self");
+  }
+</script>
 </html>

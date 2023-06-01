@@ -7,12 +7,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ScriptStorm</title>
-    <meta http-equiv="refresh" content="4; URL='../tela_inicial/tela_inicial.html'">
+    <meta http-equiv="refresh" content="100; URL='../tela_inicial/tela_inicial.html'">
     <link rel="stylesheet" href="intro.css">
 
 </head>
 
-<body>
+<body onmouseover="Tocar()">
+   
     <p class="text"> ScriptStorm</p> <!--p é paragrafo-->
 
 
@@ -21,7 +22,19 @@
     <video autoplay muted loop>
         <source src="video.mp4" type="video/mp4">
     </video>
+    </div>
+
+    <audio id="audio" controls="" autoplay>
+        <source src="trovao.mp3" type="audio/mp3">
+    </audio>
+    
 
 </body>
 
+<script>
+    function Tocar()
+    {
+        audio.play();
+    }
+</script>
 </html>

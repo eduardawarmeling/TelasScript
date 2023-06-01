@@ -1,4 +1,56 @@
 
+        .cabecalho {
+            width: 100%;
+            margin-left: -10px;
+            padding: 10px;
+            margin-top: -1%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #9a7bb1;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        
+        }
+        
+        .logo {
+            width: 140px;
+        
+        }
+        
+        .cabecalho ul li {
+            list-style: none;
+            display: inline-block;
+            margin: 0 20px;
+            position: relative;
+        }
+        
+        /*edição texto do menu*/
+        .cabecalho ul li a {
+            text-decoration: none;
+            color: white;
+            text-transform: uppercase;
+            margin-left: 50px;
+        }
+        
+        /*edição manu linha*/
+        .cabecalho ul li::after {
+            content: '';
+            height: 3px;
+            width: 0%;
+            background: #472863;
+            position: absolute;
+            left: 0;
+            bottom: -5px;
+            transition: 0.5s;
+        }
+        
+        /*animação linha menu*/
+        .cabecalho ul li:hover::after {
+            width: 90px;
+            left: 30%;
+        }
+        
+        
         /* Estilos CSS básicos */
         body {
             font-family: Arial, sans-serif;
