@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Pague com PIX</title>
+
+    <script src="https://kit.fontawesome.com/141fa13aea.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="pix.css">
+  </head>
+  <body>
+
+    <div class="cabecalho">
+      <img src="logo2.png" class="logo">
+      <ul>
+        <li><a href="../produtos/produtos.html">Produtos</a> <i class="fa-solid fa-file-lines" style="color: #f6f6f6;"></i> </li>
+        <li><a href="../autores/autores.html">Autores</a> <i class="fa-solid fa-pen" style="color: #ffffff;"></i> </li>
+        <li><a href="../perfil_usuario/perfil.html">Perfil</a> <i class="fa-solid fa-user" style="color: #ffffff;"></i> </li>
+        <li><a href="../biblioteca/biblioteca.html">Biblioteca</a> <i class="fa-solid fa-book-bookmark" style="color: #ffffff;"></i> </i>
+        <li><a href="../faleconosco/fale.html">Fale conosco</a> <i class="fa-solid fa-comment" style="color: #ffffff;"></i> </li>
+
+      </ul>
+
+  </div>
+    <main>
+      <form action="#" method="POST">
+        <label for="recipient">Copie a chave pix ou use o QR code</label>
+        <h4>Chave aleatoria:
+          <br> <br>
+          HFJSMXDJ4638nfjfmdfhjdMFHF76I84784FJF745jfhvnmv</h4>
+      
+        <label for="amount">Valor do pagamento:</label>
+        <input type="number" id="amount" name="amount" min="0" step="0.01" required>
+      
+        <label for="message">Mensagem (opcional):</label>
+        <textarea id="message" name="message"></textarea>
+      
+        <button type="submit">Pagar com PIX</button>
+      </form>      
+    </main>
+    <img src="qrCode.png" class="qrcode">
+  </body>
+</html>

@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .cabecalho {
+    width: 100%;
+    margin-left: -10px;
+    padding: 10px;
+    margin-top: -1%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #9a7bb1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+}
+
+.logo {
+    width: 140px;
+
+}
+
+.cabecalho ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.cabecalho ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    margin-left: 50px;
+}
+
+.cabecalho ul li::after {
+    content: '';
+    height: 3px;
+    width: 0%;
+    background: #472863;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.5s;
+}
+
+.cabecalho ul li:hover::after {
+    width: 90px;
+    left: 30%;
+}
+  
+  header {
+    background-color: #0070f3;
+    color: white;
+    padding: 1rem;
+  }
+  
+  main {
+    max-width: 600px;
+    margin: 2rem auto;
+    margin-left: 45%;
+    margin-top: 10%;
+  }
+  
+  form {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    left: 100%;
+    top: 300%;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  textarea {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  button[type="submit"] {
+      background-color: #62378d;
+    color: white;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #a871b6;
+  }
+  
+  .qrcode{
+    width: 20%;
+    position: absolute;
+    top:220px;
+    left:260px;
+  }
+  footer{
+    left: 50%;
+  }

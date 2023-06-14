@@ -111,3 +111,7 @@ body {
     border-radius: 20px;
     cursor: pointer;
   }
+
+  a:link{
+    text-decoration: none;
+  }

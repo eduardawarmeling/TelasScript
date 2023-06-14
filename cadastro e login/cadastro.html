@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,27 +9,24 @@
   <body>
     <div class="container" id="container">
       <div class="form-container sign-up-container">
-        <form action="#">
+        <form action="entrar.php" method="post">
           <h1>Login</h1>
-          <input type="email" placeholder="Email" />
-          <input type="password" placeholder="Senha" />
-          <button>
-            <a href="../produtos/produtos.html"
-                style="color: #ffffff">Login!</a>
-            </a>
+          <input name="email" type="email" placeholder="Email" />
+          <input name="senha" type="password" placeholder="Senha" />
+          <button type="submit"> 
+            Login!
     </button>
         </form>
       </div>
       <div class="form-container sign-in-container">
-        <form action="#">
+        <form action="inserir.php" method="post">
           <h1>Cadastro</h1>
-          <input type="text" placeholder="Nome" />
-          <input type="email" placeholder="Email" />
-          <input type="password" placeholder="Senha" />
-            <button>
-              <a href="../pagamentos/pagamentos.html"
-                  style="color: #ffffff">Cadastrar!</a>
-              </a>
+          <input name= "nome" type="text" placeholder="nome" />
+          <input name="cpf" type="tel" placeholder="cpf" />
+          <input name="email" type="email" placeholder="email" />
+          <input name="senha" type="password" placeholder="senha" />
+            <button type="submit">
+              Cadastrar!
       </button>
        
         </form>
@@ -65,6 +62,9 @@ signUpButton.addEventListener('click', () => {
 signInButton.addEventListener('click', () => {
   container.classList.remove('right-panel-active');
 });
+
+</script>
+
     </script>
   </body>
 </html>
