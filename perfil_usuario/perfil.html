@@ -47,39 +47,46 @@
     </main>
 
     <main>
-        <div class="profile2">
+       
+      
+      <div class="profile2">
 
           <div class="texto">
             <h2>Digite um Titulo:
               <input type="text" class="caixa_larga" id="title">
             </h2>
   
-            <h2>Digite a sinopse:
+            <h2>Escreva sua História:
               <textarea rows="30" cols="60" maxlength="400"></textarea>
               
             </h2>
           </div>
-          
-        
-          <div class="profile3">
-            <h1>Publique seu Texto</h1>
-            <div class="drag-area">
-              <div class="icon"><i class="fas fa-cloud-upload-alt"></i></div>
-              <header>Arraste seu arquivo aqui</header>
-              <span>ou</span>
-              <button>Procurar arquivo</button>
-              <input type="file" hidden>
-            </div>
-            <script src="script.js"></script>
-          </a>
-          </div>
-  
-
         </div>
+         
+        <br> <br>
 
-       
-       
-     
+        <div class="profile3">
+          <div class="selecao">
+            <h1>Selecionar uma Capa</h1>
+
+           
+            <input type="file" id="imageFile" style="display: none;" onchange="showImagePreview(event)">
+              <img id="image-preview" class="image-preview" src="#">
+              <label for="imageFile" class="file-input">Selecione uma Imagem</label>
+
+              <h4>tamnaho recomendado: 300x450</h4>
+
+            <br>  
+    
+            <form>
+              
+              
+            
+              </form>
+              </div>
+          </div>
+          <script src="perfil.js"></script>
+        </div>
      
       </main>
 

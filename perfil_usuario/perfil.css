@@ -120,28 +120,6 @@ body {
    
   }
 
-  .profile3 {
-    margin-top: -40%;
-    height: 20%;
-    width: 35%;
-    text-align: center;
-    margin-left: 50%;
-    padding: 10px;
-    background-color: transparent;
-    
-   
-  }
-
-  
-  /*estilo texto perfil*/
-  .profile3 h1 {
-    font-size: 36px;
-    margin-bottom: 10px;
-  }
-
-
-  
-
   a:link{
     text-decoration: none;
     } 
@@ -170,52 +148,39 @@ body {
 
   /*drag*/
 
-  .drag-area{
-    border: 2px dashed rgb(0, 0, 0);
-    height: 330px;
-    width: 400px;
-    margin-left: -5%;
-    border-radius: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-  }
-  .drag-area.active{
-    border: 2px solid rgb(124, 56, 169);
-  }
-  .drag-area .icon{
-    font-size: 100px;
-    color: rgb(120, 49, 141);
-  }
-  .drag-area header{
-    font-size: 30px;
-    font-weight: 500;
-    color: rgb(0, 0, 0);
-  }
-  .drag-area span{
-    font-size: 25px;
-    font-weight: 500;
-    color: rgb(3, 2, 2);
-    margin: 10px 0 15px 0;
-  }
-  .drag-area button{
-    padding: 10px 25px;
-    font-size: 20px;
-    font-weight: 500;
-    border: none;
-    outline: none;
-    background: rgb(107, 40, 126);
-    color: #ffffff;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  .drag-area img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    border-radius: 5px;
-  }
+
+ /* selecione uma imagem */
+ .file-input {
+  background-color: #893baa;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #ffff;
+
+}
+
+
+.profile3 {
+  text-align: center;
+  padding: 50px;
+  background-color: transparent;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+ 
+}
+
+.selecao{
+  width: 30%;
+  height: 80%;
+  margin-left: 35%;
+  border: 2px dashed rgb(0, 0, 0);
+}
+
+h4{
+  font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+
+
 
   
 
