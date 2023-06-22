@@ -96,3 +96,9 @@ background: linear-gradient(90deg, rgba(167,118,203,1) 6%, rgba(76,42,97,1) 48%)
 a:link {
   text-decoration: none;
 }
+
+.back{
+  background-color:aqua;
+  border-color: transparent;
+ 
+}

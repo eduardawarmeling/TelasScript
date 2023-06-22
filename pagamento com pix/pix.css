@@ -110,3 +110,7 @@ body {
   footer{
     left: 50%;
   }
+  
+  .back{
+    margin-left: 10px;
+  }

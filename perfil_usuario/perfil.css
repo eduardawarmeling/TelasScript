@@ -178,7 +178,20 @@ body {
 h4{
   font-family:Georgia, 'Times New Roman', Times, serif
 }
+button{
+  width: 390px;
+  background-color: #893baa;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 400px;
+  color: #ffff;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
 
+button:hover {
+background-color:  #8c40c7;
+}
 
 
 

@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-left: 50px;
+    margin:80px;
+    padding: 40px;
+    background-color:white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    color: #666;
+    margin-bottom: 20px;
+}
+.success-message {
+    text-align: center;
+    font-size: 24px;
+    color: #4caf50;
+    margin-bottom: 20px;
+  }
+
+.logo{
+    margin-left: 10px;
+    margin-top: 10px;
+}
