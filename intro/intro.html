@@ -12,29 +12,30 @@
 
 </head>
 
-<body onmouseover="Tocar()">
-   
+<body onmouseover="Tocar()"> <!--nome da função tocar musica-->
+
     <p class="text"> ScriptStorm</p> <!--p é paragrafo-->
 
 
 
     <div class="banner">
-    <video autoplay muted loop>
-        <source src="video.mp4" type="video/mp4">
-    </video>
+        <video autoplay muted loop>
+            <source src="video.mp4" type="video/mp4">
+        </video>
     </div>
 
     <audio id="audio" controls="" autoplay>
         <source src="trovao.mp3" type="audio/mp3">
     </audio>
-    
+
 
 </body>
 
+<!--função tocar musica-->
 <script>
-    function Tocar()
-    {
+    function Tocar() {
         audio.play();
     }
 </script>
+
 </html>

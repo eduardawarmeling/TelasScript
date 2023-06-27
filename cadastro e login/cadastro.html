@@ -8,7 +8,7 @@
   </head>
   <body>
     <div class="container" id="container">
-      <div class="form-container sign-up-container">
+      <div class="form-container sign-in-container">
         <form action="entrar.php" method="post">
           <h1>Login</h1>
           <input name="email" type="email" placeholder="Email" />
@@ -18,13 +18,13 @@
     </button>
         </form>
       </div>
-      <div class="form-container sign-in-container">
+      <div class="form-container sign-up-container">
         <form action="inserir.php" method="post">
           <h1>Cadastro</h1>
-          <input name= "nome" type="text" placeholder="nome" />
-          <input name="cpf" type="tel" placeholder="cpf" />
-          <input name="email" type="email" placeholder="email" />
-          <input name="senha" type="password" placeholder="senha" />
+          <input name= "nome" type="text" placeholder="Nome" />
+          <input name="cpf" type="tel" placeholder="Cpf" />
+          <input name="email" type="email" placeholder="Email" />
+          <input name="senha" type="password" placeholder="Senha" />
             <button type="submit">
               Cadastrar!
       </button>
@@ -34,17 +34,17 @@
       <div class="overlay-container">
         <div class="overlay">
           <div class="overlay-panel overlay-left">
-            <h1>Bem vindo de volta!</h1>
+            <h1>Olá</h1>
             <p>
-              Não tem cadastro?
-              Clique aqui para se cadastrar.
+              Clique aqui se você já tem login.
             </p>
-            <button class="ghost" id="signIn">Fazer Cadastro</button>
+            <button class="ghost" id="signIn">Fazer Login</button>
           </div>
           <div class="overlay-panel overlay-right">
-            <h1>Olá!</h1>
-            <p>Clique aqui se você já tem login.</p>
-            <button class="ghost" id="signUp">Fazer Login</button>
+            <h1>Bem vindo de volta!</h1>
+            <p>Não tem cadastro?
+              Clique aqui para se cadastrar.</p>
+            <button class="ghost" id="signUp">Fazer Cadastro</button>
           </div>
         </div>
       </div>
@@ -52,19 +52,17 @@
 
     <script>
         const signUpButton = document.getElementById('signUp');
-const signInButton = document.getElementById('signIn');
-const container = document.getElementById('container');
+          const signInButton = document.getElementById('signIn');
+          const container = document.getElementById('container');
 
-signUpButton.addEventListener('click', () => {
-  container.classList.add('right-panel-active');
-});
+          signUpButton.addEventListener('click', () => {
+            container.classList.add('right-panel-active');
+          });
 
-signInButton.addEventListener('click', () => {
-  container.classList.remove('right-panel-active');
-});
-
+          signInButton.addEventListener('click', () => {
+            container.classList.remove('right-panel-active');
+          });
 </script>
 
-    </script>
   </body>
 </html>
