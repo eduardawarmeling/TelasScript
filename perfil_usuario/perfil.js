@@ -8,5 +8,5 @@ function showImagePreview(event) {
     imagePreview.src = e.target.result; /*mostra resultado do evento target/ img escolhida*/
   };
 
-  reader.readAsDataURL(file);
+  reader.readAsDataURL(file); /*gera arquivo na tela*/
 }
