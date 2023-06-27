@@ -29,7 +29,7 @@ h1 {
   border-radius: 5px;
   background-color: #eaeaea;
   cursor: pointer;
-  transition: background-color 0.3s;
+  transition: 0.3s;
 }
 
 .card:hover {
