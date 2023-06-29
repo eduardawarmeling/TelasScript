@@ -3,7 +3,7 @@ function pesquisar_livro() {
     input=input.toLowerCase();
     let x = document.getElementsByClassName('produto');
       
-    for (i = 0; i < x.length; i++) { 
+    for (i = 0; i < x.length; i++) { /*controle de repetição*/
         if (!x[i].innerHTML.toLowerCase().includes(input)) {
             x[i].style.display="none";
         }
